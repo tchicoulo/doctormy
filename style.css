@@ -1,24 +1,115 @@
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: 'Arvo', serif;
 }
 
+
 h1 {
   text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 .large {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  border: 2px solid brown;
+}
+
+.box {
+  margin: 0 auto;
   border: 2px solid red;
-  width: 1000px;
+  width: 40%;
 }
 
 .corps {
+  display: flex;
+  justify-content: flex-end;
   border: 2px solid blue;
+  position: relative;
+  width: 50%;
 }
 
-.text {
-  border: 2px solid green;
+
+.epaule {
+  border: 1px solid black;
+  position: absolute;
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+  background-color: black;
+  opacity: 0.5;
+  top: 4.5rem;
+  right: 5.5rem;
+}
+
+.coude {
+  border: 1px solid black;
+  position: absolute;
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+  background-color: black;
+  opacity: 0.5;
+  top: 10rem;
+  right: -0.5rem;
+}
+
+.poignet {
+  border: 1px solid black;
+  position: absolute;
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+  background-color: black;
+  opacity: 0.5;
+  top: 12rem;
+  right: 5.7rem;
+
+}
+
+.hanche {
+  border: 1px solid black;
+  position: absolute;
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+  background-color: black;
+  opacity: 0.5;
+  top: 13.5rem;
+  right: 0.8rem;
+}
+
+.genou {
+  border: 1px solid black;
+  position: absolute;
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+  background-color: black;
+  opacity: 0.5;
+  bottom: 6rem;
+  right: 3.8rem;
+}
+
+.cheville {
+  border: 1px solid black;
+  position: absolute;
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+  background-color: black;
+  opacity: 0.5;
+  bottom: 1.3rem;
+  right: 1.5rem;
+}
+
+.epaule:hover, .coude:hover, .poignet:hover, .hanche:hover,
+.genou:hover, .cheville:hover{
+  background-color: red;
 }
