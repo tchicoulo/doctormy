@@ -12,104 +12,80 @@ body {
 h1 {
   text-align: center;
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .large {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
   width: 100%;
-  border: 2px solid brown;
 }
 
 .box {
-  margin: 0 auto;
-  border: 2px solid red;
-  width: 40%;
+  display: flex;
+  width: 50%;
 }
 
 .corps {
-  display: flex;
-  justify-content: flex-end;
-  border: 2px solid blue;
   position: relative;
   width: 50%;
 }
 
-
-.epaule {
-  border: 1px solid black;
+.cercle {
+  border: 1px solid rgb(27,214,214);
   position: absolute;
   border-radius: 50%;
   width: 43px;
   height: 43px;
   background-color: black;
   opacity: 0.5;
+}
+
+#epaule {
   top: 4.5rem;
   right: 5.5rem;
 }
 
-.coude {
-  border: 1px solid black;
-  position: absolute;
-  border-radius: 50%;
-  width: 43px;
-  height: 43px;
-  background-color: black;
-  opacity: 0.5;
+#coude {
   top: 10rem;
   right: -0.5rem;
 }
 
-.poignet {
-  border: 1px solid black;
-  position: absolute;
-  border-radius: 50%;
-  width: 43px;
-  height: 43px;
-  background-color: black;
-  opacity: 0.5;
+#poignet {
   top: 12rem;
   right: 5.7rem;
 
 }
 
-.hanche {
-  border: 1px solid black;
-  position: absolute;
-  border-radius: 50%;
-  width: 43px;
-  height: 43px;
-  background-color: black;
-  opacity: 0.5;
+#hanche {
   top: 13.5rem;
   right: 0.8rem;
 }
 
-.genou {
-  border: 1px solid black;
-  position: absolute;
-  border-radius: 50%;
-  width: 43px;
-  height: 43px;
-  background-color: black;
-  opacity: 0.5;
+#genou {
   bottom: 6rem;
   right: 3.8rem;
 }
 
-.cheville {
-  border: 1px solid black;
-  position: absolute;
-  border-radius: 50%;
-  width: 43px;
-  height: 43px;
-  background-color: black;
-  opacity: 0.5;
+#cheville {
   bottom: 1.3rem;
   right: 1.5rem;
 }
 
-.epaule:hover, .coude:hover, .poignet:hover, .hanche:hover,
-.genou:hover, .cheville:hover{
-  background-color: red;
+img {
+  float: right;
+}
+
+.text {
+  width: 50%;
+  word-wrap: break-word;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+}
+
+.cercle:hover {
+  background-color: rgb(27,214,214);
+  width: 48px;
+  height: 48px;
+  transition-duration: 0.5s;
 }
