@@ -81,6 +81,8 @@ img {
   word-wrap: break-word;
   padding-top: 2rem;
   padding-left: 1.5rem;
+  max-height: 400px;
+  text-overflow: ellipsis;
 }
 
 .cercle:hover {

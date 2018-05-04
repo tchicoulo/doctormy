@@ -1,7 +1,6 @@
  let text    = document.querySelector(".text");
  let epaule  = document.querySelector("#epaule");
  let coude  = document.querySelector("#coude");
-
  let poignet  = document.querySelector("#poignet");
  let hanche  = document.querySelector("#hanche");
  let genou  = document.querySelector("#genou");
